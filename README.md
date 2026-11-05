@@ -17,7 +17,7 @@ Minimal system info fetch with random cat ASCII art — works on **every distro*
 
 ### Universal (any platform)
 ```bash
-curl -o ~/.local/bin/zephfetch https://raw.githubusercontent.com/iamzephlol/zephfetch/main/zephfetch
+curl -o ~/.local/bin/zephfetch https://raw.githubusercontent.com/zenithlovesyou/zephfetch/main/zephfetch
 chmod +x ~/.local/bin/zephfetch
 ```
 
@@ -31,61 +31,61 @@ yay -S zephfetch
 **Debian / Ubuntu / Linux Mint / Pop!_OS:**
 ```bash
 sudo apt install curl git
-curl -o ~/.local/bin/zephfetch https://raw.githubusercontent.com/iamzephlol/zephfetch/main/zephfetch
+curl -o ~/.local/bin/zephfetch https://raw.githubusercontent.com/zenithlovesyou/zephfetch/main/zephfetch
 chmod +x ~/.local/bin/zephfetch
 ```
 
 **Fedora / RHEL / CentOS:**
 ```bash
 sudo dnf install curl git
-curl -o ~/.local/bin/zephfetch https://raw.githubusercontent.com/iamzephlol/zephfetch/main/zephfetch
+curl -o ~/.local/bin/zephfetch https://raw.githubusercontent.com/zenithlovesyou/zephfetch/main/zephfetch
 chmod +x ~/.local/bin/zephfetch
 ```
 
 **openSUSE / SUSE:**
 ```bash
 sudo zypper install curl git
-curl -o ~/.local/bin/zephfetch https://raw.githubusercontent.com/iamzephlol/zephfetch/main/zephfetch
+curl -o ~/.local/bin/zephfetch https://raw.githubusercontent.com/zenithlovesyou/zephfetch/main/zephfetch
 chmod +x ~/.local/bin/zephfetch
 ```
 
 **Gentoo:**
 ```bash
 sudo emerge git curl
-curl -o ~/.local/bin/zephfetch https://raw.githubusercontent.com/iamzephlol/zephfetch/main/zephfetch
+curl -o ~/.local/bin/zephfetch https://raw.githubusercontent.com/zenithlovesyou/zephfetch/main/zephfetch
 chmod +x ~/.local/bin/zephfetch
 ```
 
 **Alpine Linux:**
 ```bash
 sudo apk add curl
-curl -o ~/.local/bin/zephfetch https://raw.githubusercontent.com/iamzephlol/zephfetch/main/zephfetch
+curl -o ~/.local/bin/zephfetch https://raw.githubusercontent.com/zenithlovesyou/zephfetch/main/zephfetch
 chmod +x ~/.local/bin/zephfetch
 ```
 
 **Void Linux:**
 ```bash
 sudo xbps-install -Sy curl
-curl -o ~/.local/bin/zephfetch https://raw.githubusercontent.com/iamzephlol/zephfetch/main/zephfetch
+curl -o ~/.local/bin/zephfetch https://raw.githubusercontent.com/zenithlovesyou/zephfetch/main/zephfetch
 chmod +x ~/.local/bin/zephfetch
 ```
 
 **NixOS:**
 ```bash
-nix-shell -p curl --run 'curl -o ~/.local/bin/zephfetch https://raw.githubusercontent.com/iamzephlol/zephfetch/main/zephfetch && chmod +x ~/.local/bin/zephfetch'
+nix-shell -p curl --run 'curl -o ~/.local/bin/zephfetch https://raw.githubusercontent.com/zenithlovesyou/zephfetch/main/zephfetch && chmod +x ~/.local/bin/zephfetch'
 ```
 
 **Termux / Android:**
 ```bash
 pkg update && pkg install curl
-curl -o $PREFIX/bin/zephfetch https://raw.githubusercontent.com/iamzephlol/zephfetch/main/zephfetch
+curl -o $PREFIX/bin/zephfetch https://raw.githubusercontent.com/zenithlovesyou/zephfetch/main/zephfetch
 chmod +x $PREFIX/bin/zephfetch
 ```
 
 ### macOS
 ```bash
 brew install curl
-curl -o ~/.local/bin/zephfetch https://raw.githubusercontent.com/iamzephlol/zephfetch/main/zephfetch
+curl -o ~/.local/bin/zephfetch https://raw.githubusercontent.com/zenithlovesyou/zephfetch/main/zephfetch
 chmod +x ~/.local/bin/zephfetch
 ```
 
@@ -93,7 +93,7 @@ chmod +x ~/.local/bin/zephfetch
 
 **Command Prompt / PowerShell (native):**
 ```powershell
-powershell -Command "Invoke-WebRequest -Uri https://raw.githubusercontent.com/iamzephlol/zephfetch/main/zephfetch -OutFile $env:USERPROFILE\.local\bin\zephfetch"
+powershell -Command "Invoke-WebRequest -Uri https://raw.githubusercontent.com/zenithlovesyou/zephfetch/main/zephfetch -OutFile $env:USERPROFILE\.local\bin\zephfetch"
 ```
 - Add `$env:USERPROFILE\.local\bin` to your PATH if not already there
 - PowerShell ships with Windows 10/11 by default
@@ -101,7 +101,7 @@ powershell -Command "Invoke-WebRequest -Uri https://raw.githubusercontent.com/ia
 
 **Git Bash / MSYS2 / Cygwin:**
 ```bash
-curl -o ~/.local/bin/zephfetch https://raw.githubusercontent.com/iamzephlol/zephfetch/main/zephfetch
+curl -o ~/.local/bin/zephfetch https://raw.githubusercontent.com/zenithlovesyou/zephfetch/main/zephfetch
 chmod +x ~/.local/bin/zephfetch
 ```
 
