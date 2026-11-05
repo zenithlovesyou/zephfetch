@@ -27,7 +27,7 @@ THEME="thm4"
 MORE_INFO="0"
 
 # GitHub raw URL for self-update
-ZEPHFETCH_RAW="https://raw.githubusercontent.com/iamzephlol/zephfetch/main/zephfetch"
+ZEPHFETCH_RAW="https://raw.githubusercontent.com/zenithlovesyou/zephfetch/main/zephfetch"
 
 # Tool availability cache
 declare -gA _HAS_CACHE=()
