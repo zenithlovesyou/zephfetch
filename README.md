@@ -25,7 +25,7 @@ chmod +x ~/.local/bin/zephfetch
 
 **Arch Linux (AUR):**
 ```bash
-yay -S zephfetch
+yay -S zephfetch # when available 
 ```
 
 **Debian / Ubuntu / Linux Mint / Pop!_OS:**
